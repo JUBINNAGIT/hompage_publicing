@@ -1,0 +1,302 @@
+#logo {
+  position: absolute;
+  left: 135px;
+  top: 73px;
+}
+
+
+/* START menu_bar */
+.menu_bar {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1280px;
+  height: 987px;
+  z-index: 104;
+}
+  .menu_bar .over {
+    color: rgb(191, 30, 46);
+  }
+  .menu_bar .inactive {
+    color: rgb(137, 137, 137);
+  }
+  .event_wrap {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 1280px;
+    height: 987px;
+    z-index: 103;
+  }
+    .event_data {
+      font-size: 21px;
+      font-family: "HaanYGodic23";
+      color: rgb(77, 77, 77);
+      line-height: 4.673;
+      text-align: left;
+      -moz-transform: matrix( 0.92284906776214,-0.3851617817626,0.3851617817626,0.92284906776214,0,0);
+      -webkit-transform: matrix( 0.92284906776214,-0.3851617817626,0.3851617817626,0.92284906776214,0,0);
+      -ms-transform: matrix( 0.92284906776214,-0.3851617817626,0.3851617817626,0.92284906776214,0,0);
+      position: absolute;
+      left: 642.469px;
+      top: 118.944px;
+      z-index: 97;
+    }
+  .refer_wrap {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 1280px;
+    height: 987px;
+    z-index: 95;
+  }
+    .refer_data {
+      font-size: 21px;
+      font-family: "HaanYGodic23";
+      color: rgb(77, 77, 77);
+      line-height: 4.673;
+      text-align: left;
+      -moz-transform: matrix( 0.92284906776214,-0.3851617817626,0.3851617817626,0.92284906776214,0,0);
+      -webkit-transform: matrix( 0.92284906776214,-0.3851617817626,0.3851617817626,0.92284906776214,0,0);
+      -ms-transform: matrix( 0.92284906776214,-0.3851617817626,0.3851617817626,0.92284906776214,0,0);
+      position: absolute;
+      left: 541.024px;
+      top: 161.873px;
+      z-index: 89;
+    }
+  .bible_wrap {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 1280px;
+    height: 987px;
+    z-index: 87;
+  }
+    .bible {
+      font-size: 21px;
+      font-family: "HaanYGodic23";
+      color: rgb(77, 77, 77);
+      line-height: 4.673;
+      text-align: left;
+      -moz-transform: matrix( 0.92284906776214,-0.3851617817626,0.3851617817626,0.92284906776214,0,0);
+      -webkit-transform: matrix( 0.92284906776214,-0.3851617817626,0.3851617817626,0.92284906776214,0,0);
+      -ms-transform: matrix( 0.92284906776214,-0.3851617817626,0.3851617817626,0.92284906776214,0,0);
+      position: absolute;
+      left: 438.742px;
+      top: 204.389px;
+      z-index: 81;
+    }
+  .mission_wrap {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 1280px;
+    height: 987px;
+    z-index: 79;
+  }
+    .mission {
+      font-size: 21px;
+      font-family: "HaanYGodic23";
+      color: rgb(77, 77, 77);
+      line-height: 4.673;
+      text-align: left;
+      -moz-transform: matrix( 0.92284906776214,-0.3851617817626,0.3851617817626,0.92284906776214,0,0);
+      -webkit-transform: matrix( 0.92284906776214,-0.3851617817626,0.3851617817626,0.92284906776214,0,0);
+      -ms-transform: matrix( 0.92284906776214,-0.3851617817626,0.3851617817626,0.92284906776214,0,0);
+      position: absolute;
+      left: 324.248px;
+      top: 247.951px;
+      z-index: 77;
+    }
+  .service_wrap {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 1280px;
+    height: 987px;
+    z-index: 75;
+  }
+    .service {
+      font-size: 21px;
+      font-family: "HaanYGodic23";
+      color: rgb(0, 0, 0);
+      line-height: 4.673;
+      text-align: left;
+      -moz-transform: matrix( 0.92284906776214,-0.3851617817626,0.3851617817626,0.92284906776214,0,0);
+      -webkit-transform: matrix( 0.92284906776214,-0.3851617817626,0.3851617817626,0.92284906776214,0,0);
+      -ms-transform: matrix( 0.92284906776214,-0.3851617817626,0.3851617817626,0.92284906776214,0,0);
+      position: absolute;
+      left: 233.891px;
+      top: 287.576px;
+      z-index: 70;
+    }
+    .service_video {
+      font-size: 16.667px;
+      font-family: "HaanYGodic23";
+      color: rgb(0, 0, 0);
+      line-height: 5.841;
+      text-align: left;
+      -moz-transform: matrix( 0.92284906776214,-0.3851617817626,0.3851617817626,0.92284906776214,0,0);
+      -webkit-transform: matrix( 0.92284906776214,-0.3851617817626,0.3851617817626,0.92284906776214,0,0);
+      -ms-transform: matrix( 0.92284906776214,-0.3851617817626,0.3851617817626,0.92284906776214,0,0);
+      position: absolute;
+      left: 290.055px;
+      top: 294.433px;
+      z-index: 73;
+    }
+    .service_docu {
+      font-size: 16.667px;
+      font-family: "HaanYGodic23";
+      color: rgb(0, 0, 0);
+      line-height: 5.841;
+      text-align: left;
+      -moz-transform: matrix( 0.92284906776214,-0.3851617817626,0.3851617817626,0.92284906776214,0,0);
+      -webkit-transform: matrix( 0.92284906776214,-0.3851617817626,0.3851617817626,0.92284906776214,0,0);
+      -ms-transform: matrix( 0.92284906776214,-0.3851617817626,0.3851617817626,0.92284906776214,0,0);
+      position: absolute;
+      left: 212.523px;
+      top: 331.519px;
+      z-index: 72;
+    }
+  .church_wrap {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 1280px;
+    height: 987px;
+    z-index: 67;
+  }
+    .church {
+      font-size: 21px;
+      font-family: "HaanYGodic23";
+      color: rgb(77, 77, 77);
+      line-height: 4.673;
+      text-align: left;
+      -moz-transform: matrix( 0.92284906776214,-0.3851617817626,0.3851617817626,0.92284906776214,0,0);
+      -webkit-transform: matrix( 0.92284906776214,-0.3851617817626,0.3851617817626,0.92284906776214,0,0);
+      -ms-transform: matrix( 0.92284906776214,-0.3851617817626,0.3851617817626,0.92284906776214,0,0);
+      position: absolute;
+      left: 132.899px;
+      top: 330.522px;
+      z-index: 65;
+    }
+/* END manu_bar */
+
+
+.design_shape {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1280px;
+  height: 987px;
+  z-index: 17;
+}
+.light {
+  background-image: url("light.png");
+  position: absolute;
+  left: -254px;
+  top: -127px;
+  width: 1233px;
+  height: 611px;
+  z-index: 16;
+}
+._01______02______03______04______05 {
+  background-image: url("01      02      03      04      05.png");
+  position: absolute;
+  left: 419px;
+  top: 629px;
+  width: 95px;
+  height: 79px;
+  z-index: 15;
+}
+.btn {
+  background-image: url("btn.png");
+  position: absolute;
+  left: 389px;
+  top: 607px;
+  width: 153px;
+  height: 133px;
+  z-index: 14;
+}
+.visual_line {
+  background-image: url("visual_line.png");
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 929px;
+  height: 987px;
+  z-index: 13;
+}
+.shadow {
+  background-image: url("shadow.png");
+  opacity: 0.2;
+  position: absolute;
+  left: 724px;
+  top: -39px;
+  width: 176px;
+  height: 1229px;
+  z-index: 12;
+}
+.line {
+  background-image: url("line.png");
+  position: absolute;
+  left: 902px;
+  top: -39px;
+  width: 12px;
+  height: 1229px;
+  z-index: 11;
+}
+.Group_10 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1280px;
+  height: 987px;
+  z-index: 10;
+}
+.Layer_75_copy_2 {
+  background-image: url("Layer 75 copy 2.png");
+  opacity: 0.2;
+  position: absolute;
+  left: 773px;
+  top: -39px;
+  width: 176px;
+  height: 1229px;
+  z-index: 9;
+}
+.Layer_75_copy_2 {
+  background-image: url("Layer 75 copy 2.png");
+  position: absolute;
+  left: 759px;
+  top: -39px;
+  width: 12px;
+  height: 1229px;
+  z-index: 8;
+}
+.Layer_100 {
+  background-image: url("Layer 100.png");
+  position: absolute;
+  left: 75px;
+  top: 261px;
+  width: 377px;
+  height: 377px;
+  z-index: 6;
+}
+.main01 {
+  background-image: url("main01.png");
+  position: absolute;
+  left: -309px;
+  top: 79px;
+  width: 1308px;
+  height: 872px;
+  z-index: 5;
+}
+.Layer_92 {
+  background-image: url("Layer 92.png");
+  position: absolute;
+  left: 60px;
+  top: 83px;
+  width: 713px;
+  height: 865px;
+  z-index: 3;
+}
