@@ -24,8 +24,6 @@
     position: absolute;
     left: 0px;
     top: 0px;
-    width: 1280px;
-    height: 987px;
     z-index: 103;
   }
     .event_data {
@@ -39,15 +37,15 @@
       -ms-transform: matrix( 0.92284906776214,-0.3851617817626,0.3851617817626,0.92284906776214,0,0);
       position: absolute;
       left: 642.469px;
-      top: 118.944px;
+      top: 18.944px;
+      width: 110px;
+      height:50px;
       z-index: 97;
     }
   .refer_wrap {
     position: absolute;
     left: 0px;
     top: 0px;
-    width: 1280px;
-    height: 987px;
     z-index: 95;
   }
     .refer_data {
@@ -61,15 +59,15 @@
       -ms-transform: matrix( 0.92284906776214,-0.3851617817626,0.3851617817626,0.92284906776214,0,0);
       position: absolute;
       left: 541.024px;
-      top: 161.873px;
+      top: 61.873px;
+      width: 110px;
+      height:50px;
       z-index: 89;
     }
   .bible_wrap {
     position: absolute;
     left: 0px;
     top: 0px;
-    width: 1280px;
-    height: 987px;
     z-index: 87;
   }
     .bible {
@@ -83,15 +81,15 @@
       -ms-transform: matrix( 0.92284906776214,-0.3851617817626,0.3851617817626,0.92284906776214,0,0);
       position: absolute;
       left: 438.742px;
-      top: 204.389px;
+      top: 104.389px;
+      width: 110px;
+      height:50px;
       z-index: 81;
     }
   .mission_wrap {
     position: absolute;
     left: 0px;
     top: 0px;
-    width: 1280px;
-    height: 987px;
     z-index: 79;
   }
     .mission {
@@ -105,15 +103,15 @@
       -ms-transform: matrix( 0.92284906776214,-0.3851617817626,0.3851617817626,0.92284906776214,0,0);
       position: absolute;
       left: 324.248px;
-      top: 247.951px;
+      top: 147.951px;
+      width: 110px;
+      height:50px;
       z-index: 77;
     }
   .service_wrap {
     position: absolute;
     left: 0px;
     top: 0px;
-    width: 1280px;
-    height: 987px;
     z-index: 75;
   }
     .service {
@@ -127,7 +125,9 @@
       -ms-transform: matrix( 0.92284906776214,-0.3851617817626,0.3851617817626,0.92284906776214,0,0);
       position: absolute;
       left: 233.891px;
-      top: 287.576px;
+      top: 187.576px;
+      width: 110px;
+      height:50px;
       z-index: 70;
     }
     .service_video {
@@ -141,7 +141,9 @@
       -ms-transform: matrix( 0.92284906776214,-0.3851617817626,0.3851617817626,0.92284906776214,0,0);
       position: absolute;
       left: 290.055px;
-      top: 294.433px;
+      top: 194.433px;
+      width: 110px;
+      height:50px;
       z-index: 73;
     }
     .service_docu {
@@ -155,15 +157,15 @@
       -ms-transform: matrix( 0.92284906776214,-0.3851617817626,0.3851617817626,0.92284906776214,0,0);
       position: absolute;
       left: 212.523px;
-      top: 331.519px;
+      top: 225.519px;
+      width: 110px;
+      height:50px;
       z-index: 72;
     }
   .church_wrap {
     position: absolute;
     left: 0px;
     top: 0px;
-    width: 1280px;
-    height: 987px;
     z-index: 67;
   }
     .church {
@@ -177,12 +179,15 @@
       -ms-transform: matrix( 0.92284906776214,-0.3851617817626,0.3851617817626,0.92284906776214,0,0);
       position: absolute;
       left: 132.899px;
-      top: 330.522px;
+      top: 230.522px;
+      width: 110px;
+      height:50px;
       z-index: 65;
     }
 /* END manu_bar */
 
 
+/* START design_shape */
 .design_shape {
   position: absolute;
   left: 0px;
@@ -191,8 +196,8 @@
   height: 987px;
   z-index: 17;
 }
-.light {
-  background-image: url("light.png");
+.design_shape .light {
+  background-image: url("../assets/img/light.png");
   position: absolute;
   left: -254px;
   top: -127px;
@@ -200,8 +205,8 @@
   height: 611px;
   z-index: 16;
 }
-._01______02______03______04______05 {
-  background-image: url("01      02      03      04      05.png");
+.design_shape .page {
+  background-image: url("../assets/img/01_02030405.png");
   position: absolute;
   left: 419px;
   top: 629px;
@@ -210,7 +215,7 @@
   z-index: 15;
 }
 .btn {
-  background-image: url("btn.png");
+  background-image: url("../assets/img/btn.png");
   position: absolute;
   left: 389px;
   top: 607px;
@@ -218,8 +223,8 @@
   height: 133px;
   z-index: 14;
 }
-.visual_line {
-  background-image: url("visual_line.png");
+.design_shape .visual_line {
+  background-image: url("../assets/img/visual_line.png");
   position: absolute;
   left: 0px;
   top: 0px;
@@ -227,8 +232,8 @@
   height: 987px;
   z-index: 13;
 }
-.shadow {
-  background-image: url("shadow.png");
+.design_shape .shadow {
+  background-image: url("../assets/img/shadow.png");
   opacity: 0.2;
   position: absolute;
   left: 724px;
@@ -237,8 +242,8 @@
   height: 1229px;
   z-index: 12;
 }
-.line {
-  background-image: url("line.png");
+.design_shape .line {
+  background-image: url("../assets/img/line.png");
   position: absolute;
   left: 902px;
   top: -39px;
@@ -246,7 +251,7 @@
   height: 1229px;
   z-index: 11;
 }
-.Group_10 {
+.design_shape .main_wrap {
   position: absolute;
   left: 0px;
   top: 0px;
@@ -254,8 +259,8 @@
   height: 987px;
   z-index: 10;
 }
-.Layer_75_copy_2 {
-  background-image: url("Layer 75 copy 2.png");
+.design_shape .main_wrap .right {
+  background-image: url("../assets/img/Layer 75 copy 2.png");
   opacity: 0.2;
   position: absolute;
   left: 773px;
@@ -264,8 +269,8 @@
   height: 1229px;
   z-index: 9;
 }
-.Layer_75_copy_2 {
-  background-image: url("Layer 75 copy 2.png");
+.design_shape .main_wrap .left {
+  background-image: url("../assets/img/Layer 75 copy 2.png");
   position: absolute;
   left: 759px;
   top: -39px;
@@ -273,8 +278,8 @@
   height: 1229px;
   z-index: 8;
 }
-.Layer_100 {
-  background-image: url("Layer 100.png");
+.design_shape .main_wrap .Layer_100 {
+  background-image: url("../assets/img/Layer 100.png");
   position: absolute;
   left: 75px;
   top: 261px;
@@ -282,21 +287,58 @@
   height: 377px;
   z-index: 6;
 }
-.main01 {
-  background-image: url("main01.png");
+.design_shape .main_wrap .main {
+  background-image: url("../assets/img/main01.png"); 
+  background-repeat: no-repeat;
   position: absolute;
-  left: -309px;
-  top: 79px;
+  left: 60px;
+  top: 83px;
   width: 1308px;
   height: 872px;
   z-index: 5;
 }
-.Layer_92 {
-  background-image: url("Layer 92.png");
+/* END design_shape */
+
+
+.gallery {
   position: absolute;
-  left: 60px;
-  top: 83px;
-  width: 713px;
-  height: 865px;
-  z-index: 3;
+  z-index: 62;
 }
+.gallery .bottom_btn {
+  background-image: url("../assets/img/bottom_btn.png");
+  position: absolute;
+  left: 797px;
+  top: 866px;
+  width: 73px;
+  height: 15px;
+  z-index: 61;
+}
+.gallery .top_btn {
+  background-image: url("../assets/img/top_btn.png");
+  position: absolute;
+  left: 797px;
+  top: 177px;
+  width: 73px;
+  height: 15px;
+  z-index: 60;
+}
+.gallery .img {
+  background-image: url("../assets/img/img.png");
+  position: absolute;
+  left: 780px;
+  top: 202px;
+  width: 112px;
+  height: 654px;
+  z-index: 59;
+}
+.gallery .title {
+  background-image: url("../assets/img/Gallery.png");
+  position: absolute;
+  left: 802px;
+  top: 149px;
+  width: 66px;
+  height: 20px;
+  z-index: 58;
+}
+
+
